@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'category/new'
   get 'order/index'
   get 'order/new'
   get 'order/edit'
